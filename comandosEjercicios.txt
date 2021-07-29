@@ -1,0 +1,122 @@
+#Ejercicio1
+use tiendaInformatica
+db.createCollection("fabricantes")
+db.fabricantes.insertOne({"codigo" : "123", "nombre" : "nombre"})
+db.fabricantes.insertOne({"codigo" : "321", "nombre" : "nombre1"})
+db.fabricantes.insertOne({"codigo" : "852", "nombre" : "nombre2"})
+db.createCollection("articulos")
+db.articulos.insertOne({"codigo" : "123", "nombre" : "nombre", "precio" : "26"})
+db.articulos.insertOne({"codigo" : "321", "nombre" : "nombre1", "precio" : "261"})
+db.articulos.insertOne({"codigo" : 852, "nombre" : "nombre2", "precio" : "625"})
+
+#Ejercicio2
+use empleados
+db.createCollection("empleados")
+db.empleados.insertOne({"_id" : "dni", "nombre" : "nombre1", "apellidos" : "apellidos"})
+db.empleados.insertOne({"_id" : "dni1", "nombre" : "nombre2", "apellidos" : "apellidos2"})
+db.empleados.insertOne({"_id" : "dni2", "nombre" : "nombre3", "apellidos" : "apellidos3"})
+db.createCollection("departamentos")
+db.departamentos.insertOne({"_id" : "codigo", "nombre" : "nombre", "apellidos" : "apellido"})
+db.departamentos.insertOne({"_id" : "codigo1", "nombre" : "nombre1", "apellidos" : "apellido1"})
+db.departamentos.insertOne({"_id" : "codigo2", "nombre" : "nombre2", "apellidos" : "apellido2"})
+
+#Ejercicio3
+use almacenes
+db.createCollection("almacenes")
+db.almacenes.insertOne({"_id" : "codigo", "lugar" : "lugar", "capacidad" : 25})
+db.almacenes.insertOne({"_id" : "codigo1", "lugar" : "lugar1", "capacidad" : 26})
+db.almacenes.insertOne({"_id" : "codigo2", "lugar" : "lugar2", "capacidad" : 27})
+db.createCollection("cajas")
+db.cajas.insertOne({"_id" : "numReferencia", "contenido" : "contenido", "valor" : 25})
+db.cajas.insertOne({"_id" : "numReferencia1", "contenido" : "contenido1", "valor" : 26})
+db.cajas.insertOne({"_id" : "numReferencia2", "contenido" : "contenido2", "valor" : 27})
+
+#Ejercicio4
+use peliculasSalas
+db.createCollection("peliculas")
+db.cajas.insertOne({"_id" : "codigo", "nombre" : "nombre", "calificacion" : 18})
+db.peliculas.insertOne({"_id" : "codigo1", "nombre" : "nombre1", "calificacion" : 13})
+db.peliculas.insertOne({"_id" : "codigo2", "nombre" : "nombre2", "calificacion" : 12})
+db.createCollection("salas")
+db.salas.insertOne({"_id" : "codigo", "nombre" : "nombre"})
+db.salas.insertOne({"_id" : "codigo1", "nombre" : "nombre1"})
+db.salas.insertOne({"_id" : "codigo2", "nombre" : "nombre2"})
+
+#Ejercicio5
+use directores
+db.createCollection("salas")
+db.directores.insertOne({"_id" : "codigo", "nomApels" : "nomApels"})
+db.directores.insertOne({"_id" : "codigo1", "nomApels" : "nomApels1"})
+db.directores.insertOne({"_id" : "codigo2", "nomApels" : "nomApels2"})
+db.createCollection("despachos")
+db.despachos.insertOne({"_id" : "numero", "capacidad" : 90})
+db.despachos.insertOne({"_id" : "numero1", "capacidad" : 91})
+db.despachos.insertOne({"_id" : "numero2", "capacidad" : 92})
+
+#Ejercicio6
+use piezasProveedores
+db.createCollection("piezas")
+db.piezas.insertOne({"codigo" : 500, "nombre" : "nombre"})
+db.piezas.insertOne({"codigo" : 500, "nombre" : "nombre"})
+db.piezas.insertOne({"codigo" : 321, "nombre" : "nombre2"})
+db.createCollection("suministra")
+db.suministra.insertOne({"codigoPieza" : 500, "idProveedor" : "id", "nombre" : "nombre", "precio":23})
+db.suministra.insertOne({"codigoPieza" : 345, "idProveedor" : "id1", "nombre" : "nombre1", "precio":24})
+db.suministra.insertOne({"codigoPieza" : 321, "idProveedor" : "id2", "nombre" : "nombre2", "precio":323})
+db.createCollection("proveedores")
+db.proveedores.insertOne({"id" : "id", "nombre" : "nombre"})
+db.proveedores.insertOne({"id" : "id1", "nombre" : "nombre1"})
+db.proveedores.insertOne({"id" : "id2", "nombre" : "nombre2"})
+
+#Ejercicio7
+use grandesAlmacenes
+db.createCollection("cajeros")
+db.cajeros.insertOne({"codigo" : 321, "nomApels" : "nomApels"})
+db.cajeros.insertOne({"codigo" : 852, "nomApels" : "nomApels1"})
+db.cajeros.insertOne({"codigo" : 8569, "nomApels" : "nomApels2"})
+db.createCollection("productos")
+db.productos.insertOne({"codigo" : 8569, "nombre" : "nombre"})
+db.productos.insertOne({"codigo" : 852, "nombre" : "nombre1"})
+db.productos.insertOne({"codigo" : 321, "nombre" : "nombre2"})
+db.createCollection("maquinas")
+db.maquinas.insertOne({"codigo" : 321, "piso" : 1})
+db.maquinas.insertOne({"codigo" : 852, "piso" : 2})
+db.maquinas.insertOne({"codigo" : 8569, "piso" : 3})
+db.createCollection("ventas")
+db.ventas.insertOne({"cajero" : 8569, "maquina" : 8569 , "producto" : 8569})
+db.ventas.insertOne({"cajero" : 321, "maquina" : 321 , "producto" : 321})
+db.ventas.insertOne({"cajero" : 852, "maquina" : 852 , "producto" : 852})
+
+#Ejercicio8
+use investigadores
+db.createCollection("facultad")
+db.facultad.insertOne({"codigo" : 852, "nombre" : "nombre"})
+db.facultad.insertOne({"codigo" : 321, "nombre" : "nombre1"})
+db.facultad.insertOne({"codigo" : 8569, "nombre" : "nombre2"})
+db.createCollection("investigadores")
+db.investigadores.insertOne({"dni" : "dni", "nomApels" : "nomApels"})
+db.investigadores.insertOne({"dni" : "dni1", "nomApels" : "nomApels1"})
+db.investigadores.insertOne({"dni" : "dni2", "nomApels" : "nomApels2"})
+db.createCollection("equipos")
+db.equipos.insertOne({"nSerie" : "nSerie", "nombre" : "nombre"})
+db.equipos.insertOne({"nSerie" : "nSerie1", "nombre" : "nombre1"})
+db.equipos.insertOne({"nSerie" : "nSerie2", "nombre" : "nombre2"})
+db.createCollection("reserva")
+db.reserva.insertOne({"dni" : "dni", "numSerie" : "numSerie", "comienzo": "20-10-00", "fin":"20-05-2001"})
+db.reserva.insertOne({"dni" : "dni1", "numSerie" : "numSerie1", "comienzo": "21-11-00", "fin":"30-05-2001"})
+db.reserva.insertOne({"dni" : "dni2", "numSerie" : "numSerie2", "comienzo": "22-12-00", "fin":"30-02-2001"})
+
+#Ejercicio9
+use cientificos
+db.createCollection("cientificos")
+db.cientificos.insertOne({"dni" : "dni", "nomApels" : "nomApels"})
+db.cientificos.insertOne({"dni" : "dni1", "nomApels" : "nomApels1"})
+db.cientificos.insertOne({"dni" : "dni2", "nomApels" : "nomApels2"})
+db.createCollection("proyecto")
+db.proyecto.insertOne({"id" : "id", "nombre" : "nombre", "horas" : 22})
+db.proyecto.insertOne({"id" : "id1", "nombre" : "nombre1", "horas" : 21})
+db.proyecto.insertOne({"id" : "id2", "nombre" : "nombre2", "horas" : 20})
+db.createCollection("asignadoA")
+db.asignadoA.insertOne({"cientifico" : "cientifico", "proyecto" : "proyecto"})
+db.asignadoA.insertOne({"cientifico" : "cientifico1", "proyecto" : "proyecto1"})
+db.asignadoA.insertOne({"cientifico" : "cientifico2", "proyecto" : "proyecto2"})
