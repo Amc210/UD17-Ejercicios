@@ -1,0 +1,13 @@
+[{
+  "_id": "codigo",
+  "nombre": "nombre",
+  "calificacion": 18
+},{
+  "_id": "codigo1",
+  "nombre": "nombre1",
+  "calificacion": 13
+},{
+  "_id": "codigo2",
+  "nombre": "nombre2",
+  "calificacion": 12
+}]

@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6102763089c1f30b4b6db192"
+  },
+  "codigoPieza": 500,
+  "idProveedor": "id",
+  "nombre": "nombre",
+  "precio": 23
+},{
+  "_id": {
+    "$oid": "6102764389c1f30b4b6db193"
+  },
+  "codigoPieza": 345,
+  "idProveedor": "id1",
+  "nombre": "nombre1",
+  "precio": 24
+},{
+  "_id": {
+    "$oid": "6102765e89c1f30b4b6db194"
+  },
+  "codigoPieza": 321,
+  "idProveedor": "id2",
+  "nombre": "nombre2",
+  "precio": 323
+}]

@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "61027ada89c1f30b4b6db1af"
+  },
+  "cajero": 8569,
+  "maquina": 8569,
+  "producto": 8569
+},{
+  "_id": {
+    "$oid": "61027b0389c1f30b4b6db1b2"
+  },
+  "cajero": 852,
+  "maquina": 852,
+  "producto": 852
+},{
+  "_id": {
+    "$oid": "61027b0d89c1f30b4b6db1b3"
+  },
+  "cajero": 321,
+  "maquina": 321,
+  "producto": 321
+}]

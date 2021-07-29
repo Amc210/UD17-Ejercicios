@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "61027d7489c1f30b4b6db1bf"
+  },
+  "dni": "dni",
+  "numSerie": "numSerie",
+  "comienzo": "20-10-00",
+  "fin": "20-05-2001"
+},{
+  "_id": {
+    "$oid": "61027daeaf27c3343ad80a4e"
+  },
+  "dni": "dni1",
+  "numSerie": "numSerie1",
+  "comienzo": "21-11-00",
+  "fin": "30-05-2001"
+},{
+  "_id": {
+    "$oid": "61027dcbaf27c3343ad80a4f"
+  },
+  "dni": "dni2",
+  "numSerie": "numSerie2",
+  "comienzo": "22-12-00",
+  "fin": "30-02-2001"
+}]

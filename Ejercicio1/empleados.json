@@ -1,0 +1,13 @@
+[{
+  "_id": "dni",
+  "nombre": "nombre1",
+  "apellidos": "apellidos"
+},{
+  "_id": "dni1",
+  "nombre": "nombre2",
+  "apellidos": "apellidos2"
+},{
+  "_id": "dni2",
+  "nombre": "nombre3",
+  "apellidos": "apellidos3"
+}]

@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "61027e68af27c3343ad80a50"
+  },
+  "dni": "dni",
+  "nomApels": "nomApels"
+},{
+  "_id": {
+    "$oid": "61027e83af27c3343ad80a51"
+  },
+  "dni": "dni1",
+  "nomApels": "nomApels1"
+},{
+  "_id": {
+    "$oid": "61027e90af27c3343ad80a52"
+  },
+  "dni": "dni2",
+  "nomApels": "nomApels2"
+}]
